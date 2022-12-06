@@ -1,3 +1,25 @@
 git status
 git config --global user.username <github_username>
 git remote add origin <github_repository_path>
+
+git status
+git push origin master 
+
+##error##
+error: failed to push some refs to 'https://github.com/prabhamanju/Python_learning.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+###  use ## git pull origin master
+
+try again git push origin master
+
+### error##
+error: failed to push some refs to 'https://github.com/prabhamanju/Python_learning.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\Users\Vineet\Desktop\Learn_python> 
