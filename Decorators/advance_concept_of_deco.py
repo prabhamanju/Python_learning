@@ -15,6 +15,3 @@ def find_div(a, b):
 
 find_div(4,2)
 find_div(4,16)
-
-
-print(4//32)
